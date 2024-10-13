@@ -18,6 +18,10 @@ This system is built in Python and will use a standard english dictionary source
 
 ## Class Diagram
 
+![class_diagram](./assets/class-diagram.drawio.svg)
+
+Through the utilization of the "Singleton" and "Strategy" design patterns the required classes to complete this system were minimal.  The single Spelling Bee game in the main class follows the singleton pattern as its the only instance of the game.  The strategy pattern can be seen in the Spelling Bee class's solve method as iterative searching along with filtering is used to return the correct answers to the game.
+
 ## Startup
 
 To start up this project simply run the python "main.py" file in an IDE / virtual environment of your choice.
